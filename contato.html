@@ -42,21 +42,22 @@
         </div>
         <div class="divform">
             <form name="contato">
-                <fieldset><div>
+                <fieldset>
+                    <div id="firstName">
                         <label for="firstName">Primeiro Nome*</label><br>
-                        <input type="text" name="Primeiro Nome*" id="firstName" required>
+                        <input class="firstname" type="text" name="Primeiro Nome*"  required>
                     </div>
-                    <div>
-                        <label for="lastName">Ultimo Nome*</label>
-                        <input type="text" name="Ultimo Nome" id="lastName" required>
+                    <div id="lastName">
+                        <label for="lastName">Ultimo Nome*</label><br>
+                        <input class="lastname" type="text" name="Ultimo Nome" required>
                     </div>
                 </fieldset>
-                <div>
-                    <label for="email">E-mail*</label>
-                    <input type="email" name="E-mail" id="email" required>
+                <div id="email">
+                    <label for="email">E-mail*</label><br>
+                    <input class="e-mail" type="email" name="E-mail"  required>
                 </div>
                 <div>
-                    <label for="mensagem">Mensagem*</label>
+                    <label for="mensagem">Mensagem*</label><br>
                     <textarea name="Mensagem" id="message" maxlength="256" required></textarea>
                 </div>
                 <div>

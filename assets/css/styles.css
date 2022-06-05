@@ -254,10 +254,37 @@ a {
     text-align: left;
 }
 #message{
-    width: 400px;
+    width: 439px;
     height: 200px;
     
 }
 fieldset{
     border: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 0;
+}
+#firstName{
+    margin-right: 1em;
+}
+.firstname{
+    width: 202.5px;
+}
+#lastName{
+    text-align: left;
+    margin-left: 1em;
+}
+.lastname{
+    width: 202.5px;
+}
+#email{
+    width: 630px;
+}
+.e-mail{
+    width: 439px;
+}
+.submit{
+    margin: 1em;
+    margin-left: 0;
 }
