@@ -1,1 +1,0 @@
-# iamlucasgomes.github.io
