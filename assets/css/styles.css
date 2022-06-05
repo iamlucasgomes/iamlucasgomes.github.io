@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,300;1,300&display=swap');
 
 body {
-    background-color: steelblue;
+    background-color: midnightblue;
     color: white;
     font-family: 'Prompt', sans-serif;
     font-style: normal;
@@ -302,7 +302,7 @@ fieldset {
     margin: 1em;
     margin-left: 0;
     background-color: white;
-    color: steelblue;
+    color: midnightblue;
     display: inline-block;
     font-size: 1rem;
     padding: 15px;
