@@ -55,6 +55,13 @@ header {
     flex-direction: row;
     justify-content: center;
 }
+.current{
+    background-image: linear-gradient(currentColor,currentColor);
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    background-position: 0 100%;
+    background-position: 0calc(100% - 0.1em);
+}
 
 .social {
     margin-left: 600px;
