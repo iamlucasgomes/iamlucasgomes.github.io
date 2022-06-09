@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,300;1,300&display=swap');
 
 body {
-    background-color: midnightblue;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    
     color: white;
     font-family: 'Prompt', sans-serif;
     font-style: normal;
@@ -33,6 +36,30 @@ em {
     font-family: 'Prompt', sans-serif;
     font-size: 1em;
 }
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 1em;
+
+}
+li:hover{
+    text-shadow: 0 0 4px #fff;;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social {
+    margin-left: 600px;
+}
+
 .h1contato {
     font-family: 'Prompt', sans-serif;
     font-style: normal;
@@ -107,7 +134,7 @@ a {
 .flex-item:nth-child(1) {
     order: 0;
     flex: 0 1 auto;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .flex-item:nth-child(2) {
@@ -143,6 +170,8 @@ a {
     flex: 2;
     font-family: 'Prompt', sans-serif;
     font-weight: 100;
+    left: 0;
+
 }
 
 #home {
@@ -301,7 +330,7 @@ fieldset {
     margin: 1em;
     margin-left: 0;
     background-color: white;
-    color: midnightblue;
+    color: #302b63;
     display: inline-block;
     font-size: 1rem;
     padding: 15px;
@@ -314,5 +343,5 @@ fieldset {
 }
 
 .submit:hover {
-    background-color: lightgray;
+    background-color: lightgray
 }
